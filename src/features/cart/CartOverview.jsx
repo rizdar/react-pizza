@@ -1,4 +1,4 @@
-import Link from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 function CartOverview() {
   return (
@@ -11,5 +11,4 @@ function CartOverview() {
     </div>
   );
 }
-
 export default CartOverview;
