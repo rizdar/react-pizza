@@ -6,6 +6,8 @@ function MenuItem({ pizza }) {
 
   const priceRupiah = unitPrice * 16632;
 
+  console.log(name);
+
   return (
     <li className="flex gap-4 py-2">
       <img
